@@ -3,4 +3,6 @@ Course Challenge
 ![Screenshot (17)](https://github.com/Jana-Khaled/Mini-Websites/assets/162918458/097675da-a286-4a77-b252-3a03adfcf6fd)
 ![Screenshot (18)](https://github.com/Jana-Khaled/Mini-Websites/assets/162918458/a3b46fa3-6145-4646-80e9-b75a33859f49)
 
+Counter
+![Screenshot (15)](https://github.com/Jana-Khaled/Mini-Websites/assets/162918458/4e102bea-b752-4786-a8c2-2fe89c06da73)
 
