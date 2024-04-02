@@ -1,0 +1,117 @@
+body{
+
+	 background: rgba(23, 103, 135,0.5);
+
+}
+
+.content{
+	animation-name: fade-in;
+	animation-duration: 2.5s;
+
+}
+
+.side-bar{
+	animation-name: fade-in;
+	animation-duration: 2.5s;
+}
+
+#main{
+
+	display: grid;;
+	grid-template-columns: 790px 300px;
+	grid-gap: 50px;
+}
+
+
+img{
+
+	height: 150px;
+	width: 300px;
+	transition: all linear 0.3s;
+}
+
+img:hover{
+	height: 200px;
+	width: 400px;
+}
+
+p{
+font-family:'Baloo 2', cursive;
+font-weight: 650;
+}
+
+li{
+	font-family: 'Kalam', cursive;
+	font-weight: 550;
+}
+
+h1{
+	font-family:'DM Serif Text', serif;
+	text-decoration:underline; 
+}
+
+h2{
+	font-family:'DM Serif Text', serif;
+	text-decoration:underline; 
+}
+
+.sidebar{
+
+	background: rgba(227, 199, 109,1);
+}
+
+.post{
+
+	border: 5px double rgb(150, 91, 21);
+	margin: 10px;
+}
+
+.post > a{
+
+	text-decoration: none;
+	font-family:'Baloo 2', cursive;
+	margin: 5px;
+	color:rgba(23, 103, 135,1);
+
+}
+
+.post > a:hover{
+	color:rgba(23, 103, 240,1);
+	transition: 0.3s color;
+	font-size: 20px;
+}
+
+.post-title{
+	margin: 6px;
+}
+
+.post-text{
+	margin: 5px;
+}
+
+#img-1{
+
+	padding: 20px;
+	width: 200px;
+
+}
+
+.image-grid{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items: baseline;
+
+}
+
+.image-grid > img{
+
+	margin: 5px;
+}
+
+@keyframes fade-in{
+	from{background: white;}
+	to{background:  rgba(23, 103, 135,0.01);}
+}
+
